@@ -6,10 +6,8 @@ import java.util.List;
 
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;
-import com.sun.deploy.xml.XMLParser;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-import org.mozilla.javascript.xml.XMLObject;
 import org.w3c.dom.Document;
 
 import javax.xml.parsers.DocumentBuilder;
