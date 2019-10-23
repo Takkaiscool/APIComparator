@@ -102,8 +102,8 @@ public class Comparator {
         JSONParser jsonParser=new JSONParser();
         try {
             JSONObject resp1JsonObject = (JSONObject)jsonParser.parse(resp1.getBody().asString());
-            JSONObject resp2JsonOJect = (JSONObject)jsonParser.parse(resp2.getBody().asString());
-            return resp1JsonObject.equals(resp2JsonOJect);
+            JSONObject resp2JsonObject = (JSONObject)jsonParser.parse(resp2.getBody().asString());
+            return resp1JsonObject.equals(resp2JsonObject);
         }catch (Exception e){
             System.out.println(e.getMessage());
         }
